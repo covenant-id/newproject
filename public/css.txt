@@ -1,0 +1,248 @@
+1. Box Model - width : Sets element width. - height : Sets element height. - padding : Space inside the border. - margin : Space outside the border. - border : Outline around the element. - box-sizing : Includes padding/border in total width ( border-box ).
+2. Text & Font - color : Text color. - font-size : Size of text. - font-family : Font style. - fontweight : Thickness ( normal , bold , 100 – 900 ). - text-align : Horizontal alignment ( left , center , right ). - line-height : Line spacing. - text-decoration : Underline, overline, etc.
+3. Position & Display - position : static , relative , absolute , fixed , sticky . - top , right , bottom , left : Offset positioned element. - z-index : Stack order. - display : block , inline , flex , grid , none . - visibility : visible , hidden .
+4. Flexbox Layout - display: flex : Activates flex container. - flex-direction : row , column . justify-content : center , space-between , etc. - align-items : center , flex-start , stretch . - gap : Spacing between items.
+5. Grid Layout - display: grid : Activates grid layout. - grid-template-columns : Defines column structure. - grid-template-rows : Defines row structure. - gap : Spacing between cells.
+6. Backgrounds - background-color : Sets background color. - background-image : Image as background. - background-size : cover , contain , etc. - background-repeat : Repeat image ( norepeat ).
+7. Borders & Effects - border-radius : Rounded corners. - box-shadow : Shadow outside box. opacity : Transparency ( 0 to 1 ).
+8. Transitions & Animation - transition : Smooth change ( transition: all 0.3s ease; ). animation : Attach keyframe animation.
+9. Responsive Design
+@media (max-width: 768px) { body { font-size: 14px; } }
+1
+10. Miscellaneous - overflow : hidden , scroll , auto . - cursor : Pointer style ( pointer , notallowed ). - visibility : Show or hide element. - white-space : Wrapping behavior. - textoverflow : Ellipsis for overflowed text.
+Use this cheatsheet to quickly reference core CSS properties during web development.
+**Comprehensive CSS Cheatsheet**
+
+---
+
+### 1. Box Model & Spacing
+
+* `width`, `min-width`, `max-width`
+* `height`, `min-height`, `max-height`
+* `margin`, `margin-top`, `margin-right`, `margin-bottom`, `margin-left`
+* `padding`, `padding-top`, `padding-right`, `padding-bottom`, `padding-left`
+* `border`, `border-width`, `border-style`, `border-color`
+* `border-top`, `border-right`, `border-bottom`, `border-left`
+* `box-sizing`: `content-box`, `border-box`
+* `outline`, `outline-width`, `outline-style`, `outline-color`
+
+### 2. Typography & Text
+
+* `color`
+* `font-family`
+* `font-size`
+* `font-weight`: `normal`, `bold`, `lighter`, `bolder`, `100-900`
+* `font-style`: `normal`, `italic`, `oblique`
+* `text-align`: `left`, `right`, `center`, `justify`
+* `text-decoration`: `none`, `underline`, `line-through`, `overline`
+* `text-transform`: `uppercase`, `lowercase`, `capitalize`
+* `line-height`
+* `letter-spacing`
+* `word-spacing`
+* `direction`: `ltr`, `rtl`
+* `white-space`: `normal`, `nowrap`, `pre`, `pre-line`, `pre-wrap`
+* `text-indent`
+* `vertical-align`
+
+### 3. Positioning & Display
+
+* `position`: `static`, `relative`, `absolute`, `fixed`, `sticky`
+* `top`, `right`, `bottom`, `left`
+* `z-index`
+* `display`: `none`, `block`, `inline`, `inline-block`, `flex`, `grid`, `inline-flex`, `inline-grid`, `table`, `table-cell`
+* `visibility`: `visible`, `hidden`, `collapse`
+* `overflow`, `overflow-x`, `overflow-y`: `visible`, `hidden`, `scroll`, `auto`
+* `float`: `left`, `right`, `none`
+* `clear`: `none`, `left`, `right`, `both`
+
+### 4. Flexbox
+
+* `display: flex`
+* `flex-direction`: `row`, `row-reverse`, `column`, `column-reverse`
+* `justify-content`: `flex-start`, `flex-end`, `center`, `space-between`, `space-around`, `space-evenly`
+* `align-items`: `stretch`, `flex-start`, `flex-end`, `center`, `baseline`
+* `align-content`: `stretch`, `center`, `flex-start`, `flex-end`, `space-between`, `space-around`
+* `flex-wrap`: `nowrap`, `wrap`, `wrap-reverse`
+* `flex`, `flex-grow`, `flex-shrink`, `flex-basis`
+* `order`
+
+### 5. Grid
+
+* `display: grid`
+* `grid-template-columns`, `grid-template-rows`
+* `grid-template-areas`
+* `grid-column`, `grid-row`, `grid-area`
+* `grid-auto-columns`, `grid-auto-rows`
+* `grid-gap`, `row-gap`, `column-gap`
+* `justify-items`, `align-items`, `place-items`
+* `justify-content`, `align-content`, `place-content`
+
+### 6. Backgrounds
+
+* `background-color`
+* `background-image`
+* `background-repeat`: `repeat`, `no-repeat`, `repeat-x`, `repeat-y`
+* `background-position`
+* `background-size`: `cover`, `contain`
+* `background-attachment`: `scroll`, `fixed`, `local`
+* `background-clip`, `background-origin`
+
+### 7. Borders, Radius & Effects
+
+* `border`, `border-width`, `border-style`, `border-color`
+* `border-radius`, `border-top-left-radius`, `border-top-right-radius`, `border-bottom-right-radius`, `border-bottom-left-radius`
+* `box-shadow`: `h-offset v-offset blur spread color`
+* `text-shadow`: `h-offset v-offset blur color`
+* `opacity`: `0` (transparent) to `1` (opaque)
+
+### 8. Lists
+
+* `list-style`, `list-style-type`, `list-style-position`, `list-style-image`
+
+### 9. Tables
+
+* `border-collapse`: `collapse`, `separate`
+* `border-spacing`
+* `caption-side`: `top`, `bottom`
+* `empty-cells`: `show`, `hide`
+* `table-layout`: `auto`, `fixed`
+
+### 10. Pseudo-classes & Pseudo-elements
+
+* `:hover`, `:focus`, `:active`, `:visited`, `:first-child`, `:last-child`, `:nth-child(n)`
+* `::before`, `::after`, `::first-line`, `::first-letter`
+
+### 11. Transitions & Animations
+
+* `transition`, `transition-property`, `transition-duration`, `transition-timing-function`, `transition-delay`
+* `animation`, `animation-name`, `animation-duration`, `animation-timing-function`, `animation-delay`, `animation-iteration-count`, `animation-direction`, `animation-fill-mode`, `animation-play-state`
+
+### 12. Media Queries
+
+```css
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+```
+
+* Used to apply styles conditionally based on screen/device size.
+
+### 13. Cursor & Miscellaneous
+
+* `cursor`: `pointer`, `default`, `not-allowed`, `text`, `move`
+* `resize`: `none`, `both`, `horizontal`, `vertical`
+* `visibility`, `content-visibility`
+* `user-select`: `none`, `text`, `all`, `auto`
+* `pointer-events`: `none`, `auto`
+* `will-change`: Optimization hint for animating properties
+
+---
+
+Use this extended cheatsheet as a powerful reference while working on web layouts and styles. Want a printable PDF version or an HTML page layout? Just ask!
+**Comprehensive CSS Cheatsheet with Explanations**
+
+---
+
+### 1. Box Model & Spacing
+
+* `width`, `min-width`, `max-width`: Set the width of an element, with optional min/max limits.
+* `height`, `min-height`, `max-height`: Set the height of an element, with optional min/max limits.
+* `margin`, `margin-*`: Outer spacing around an element.
+* `padding`, `padding-*`: Inner spacing between content and border.
+* `border`, `border-*`: Add borders around elements with width, style, and color.
+* `box-sizing`: Controls if padding/border are included in width (`border-box`) or not (`content-box`).
+* `outline`, `outline-*`: Like borders, but don't affect layout. Often used for focus styles.
+
+### 2. Typography & Text
+
+* `color`: Text color.
+* `font-family`: The typeface used for text.
+* `font-size`: Controls text size.
+* `font-weight`: Thickness of text (e.g., `normal`, `bold`, `300`).
+* `font-style`: Italics or oblique style.
+* `text-align`: Horizontal text alignment.
+* `text-decoration`: Line styling like `underline`, `line-through`.
+* `text-transform`: Change case (e.g., `uppercase`).
+* `line-height`: Space between lines.
+* `letter-spacing`: Space between characters.
+* `word-spacing`: Space between words.
+* `direction`: Text direction (`ltr`, `rtl`).
+* `white-space`: Handling of spaces and line breaks.
+* `text-indent`: Indent the first line of text.
+* `vertical-align`: Align inline elements vertically.
+
+### 3. Positioning & Display
+
+* `position`: Controls layout (`static`, `relative`, `absolute`, `fixed`, `sticky`).
+* `top`, `right`, `bottom`, `left`: Offset positioned elements.
+* `z-index`: Controls stacking order.
+* `display`: Defines layout behavior (e.g., `block`, `inline`, `flex`, `grid`).
+* `visibility`: Show or hide elements (`visible`, `hidden`).
+* `overflow`: Controls overflow content (`auto`, `scroll`, `hidden`).
+* `float`: Pushes element left/right (legacy layout method).
+* `clear`: Prevents float overlap.
+
+### 4. Flexbox
+
+* `display: flex`: Turns an element into a flex container.
+* `flex-direction`: Direction of flex items.
+* `justify-content`: Align items along the main axis.
+* `align-items`: Align items along the cross axis.
+* `align-content`: Align multiple lines in flex container.
+* `flex-wrap`: Wrap items onto new lines.
+* `flex`: Shorthand for grow/shrink/basis.
+* `order`: Controls item order.
+
+### 5. Grid
+
+* `display: grid`: Creates a grid container.
+* `grid-template-columns`, `grid-template-rows`: Define rows and columns.
+* `grid-template-areas`: Named grid sections.
+* `grid-column`, `grid-row`: Item placement.
+* `grid-gap`, `row-gap`, `column-gap`: Spacing between grid cells.
+* `justify-*`, `align-*`, `place-*`: Alignment properties for content and items.
+
+### 6. Backgrounds
+
+* `background-color`: Sets background color.
+* `background-image`: URL for image background.
+* `background-repeat`: Repeat behavior (`repeat`, `no-repeat`).
+* `background-position`: Position of background image.
+* `background-size`: Size control (`cover`, `contain`).
+* `background-attachment`: Scroll behavior of background.
+* `background-clip`, `background-origin`: Define painting areas.
+
+### 7. Borders, Radius & Effects
+
+* `border-radius`: Round element corners.
+* `box-shadow`: Shadow behind element.
+* `text-shadow`: Shadow behind text.
+* `opacity`: Set transparency (0 = transparent, 1 = solid).
+
+### 8. Lists
+
+* `list-style-type`: Bullet style.
+* `list-style-position`: Bullet inside/outside box.
+* `list-style-image`: Custom image bullet.
+
+### 9. Tables
+
+* `border-collapse`: Merge table borders.
+* `border-spacing`: Space between cells.
+* `caption-side`: Position of `<caption>`.
+* `empty-cells`: Show/hide empty cells.
+* `table-layout`: Automatic or fixed cell width.
+
+### 10. Pseudo-classes & Pseudo-elements
+
+* `:hover`: Style on mouse hover.
+* `:focus`: Style on focus (keyboard/mouse).
+* `:active`: Style when clicked.
+* `:nth-child(n)`: Targets child element by number.
+* `::before`, `::after`: Insert content before/after element.
+
+### 11. Transitions & Animations
+
+* `transition`: Animate pro
